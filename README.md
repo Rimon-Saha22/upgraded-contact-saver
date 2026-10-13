@@ -20,9 +20,9 @@ upgraded-contact-saver/
 ├── .gitignore
 └── README.md
 
-`main.py` — Provides the main menu and serves as the entry point of the application.
-`utils.py` — Contains interactive functions that handle user input and interactions.
-`file_ops.py` — Contains the core logic for managing contact information and performing file operations.
+- `main.py` — Provides the main menu and serves as the entry point of the application.
+- `utils.py` — Contains interactive functions that handle user input and interactions.
+- `file_ops.py` — Contains the core logic for managing contact information and performing file operations.
 
 ## Getting Started
 
