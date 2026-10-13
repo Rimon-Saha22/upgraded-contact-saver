@@ -1,0 +1,9 @@
+pychache/
+*.py[cod]
+.venv
+venv/
+.env
+.env.*
+name_contact.txt
+  
+ 
