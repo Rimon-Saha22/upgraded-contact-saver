@@ -72,7 +72,7 @@ def update_confirmation(return_list, updated_number):
                 print("Invalid input. Enter a number")
             
             
-            if index_choice > 0 and index_choice <= len(return_list):
+            if index_choice >= 0 and index_choice < len(return_list):
                 name_line = return_list[index_choice]
                 update_contact(name_line, updated_number)
                 print("Contact updated!")
