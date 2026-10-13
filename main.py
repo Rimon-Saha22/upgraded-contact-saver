@@ -101,7 +101,7 @@ while True :
     elif menu_option == "3" :
         search_name = input("Enter a name you want to search: ")
 
-        status, line_list = search_contact_name(search_name)
+        line_list = search_contact_name(search_name)
         final_contact_search(line_list)
 
         if menu_checker() == "no" :
